@@ -37,6 +37,11 @@ nav a {
   color: #fff;
 }
 
+.title {
+  position: relative;
+  text-align: center;
+}
+
 .card {
   background-color: #fff;
   border-radius: 10px;
@@ -55,10 +60,13 @@ nav a {
 
 .card .front {
   background-color: #3f51b5;
+  margin-bottom: 10px;
 }
 
 .card .back {
   background-color: #f44336;
+  border-top: 10px solid #222;
+  margin-top: -10px;
 }
 
 .card p {

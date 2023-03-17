@@ -12,7 +12,8 @@ body {
 }
 
 header {
-  background-color: #444;
+  background-color: #444444;
+  /* background-color: #4e514d; */
   padding: 1rem;
 }
 
@@ -23,18 +24,10 @@ nav {
   font-size: large;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-}
-
-nav li {
-  margin-right: 2rem;
-}
-
 nav a {
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
 }
 
 .title {
@@ -43,9 +36,8 @@ nav a {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #222;
   border-radius: 10px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   margin: 50px auto;
   max-width: 1000px;
   position: relative;
@@ -60,19 +52,27 @@ nav a {
 
 .card .front {
   background-color: #3f51b5;
-  margin-bottom: 10px;
+  margin-bottom: 10px #222;
 }
 
 .card .back {
   background-color: #f44336;
   border-top: 10px solid #222;
-  margin-top: -10px;
 }
 
 .card p {
   font-size: 24px;
   line-height: 1.2;
   text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.banner-image {
+  max-width: 3rem;
+  height: auto;
 }
 
 @media only screen and (max-width: 768px) {
